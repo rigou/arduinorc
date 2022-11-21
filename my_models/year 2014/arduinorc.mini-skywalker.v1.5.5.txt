@@ -1,0 +1,144 @@
+##########################
+# arduinotx v1.5.5 settings
+# 2014-09-14
+##########################
+
+##############################################################################
+# MINI SKYWALKER
+# with Hobby King GT-2  2.4Ghz Receiver 3Ch;
+# a failsafe is available on channel 2 of this receiver,
+# we use this channel to cut-off throttle if the signal is lost.
+# Model variable THC is set accordingly.
+# This plane has no rudder control, only ailerons.
+# Channels usage:
+#	ch1: ailerons, servo HXT500
+#	ch2: throttle, RCTimer ESC 10A
+#	ch3: elevator, servo HK 4.3
+##############################################################################
+
+##########################
+# MINI SKYWALKER with Exponential
+##########################
+MODEL 1
+NAM=MINIS3X
+THC=2 # throttle on chan #2
+
+# Mixers UNUSED
+N1M1=0
+P1M1=100
+N2M1=0
+P2M1=100
+N1M2=0
+P1M2=100
+N2M2=0
+P2M2=100
+
+# Channel 1 AILERONS
+ICT1=1
+ICN1=1
+REV1=0
+DUA1=100
+EXP1=25
+PWL1=720
+PWH1=2200
+EPL1=100
+EPH1=100
+SUB1=0
+
+# Channel 2 THROTTLE
+ICT2=1
+ICN2=3
+REV2=0
+DUA2=100
+EXP2=0
+PWL2=1000
+PWH2=2000
+EPL2=100
+EPH2=100
+SUB2=0
+
+# Channel 3 ELEVATOR
+ICT3=1
+ICN3=2
+REV3=0
+DUA3=100
+EXP3=25
+PWL3=690
+PWH3=2290
+EPL3=100
+EPH3=100
+SUB3=0
+
+# CH4-CH6 UNUSED
+ICT4=0
+ICT5=0
+ICT6=0
+
+
+##########################
+# MINI SKYWALKER with shorter endpoints
+##########################
+MODEL 2
+NAM=MINIS3S
+THC=2 # throttle on chan #2
+
+# Mixers UNUSED
+N1M1=0
+P1M1=100
+N2M1=0
+P2M1=100
+N1M2=0
+P1M2=100
+N2M2=0
+P2M2=100
+
+# Channel 1 AILERONS with shorter endpoints
+ICT1=1
+ICN1=1
+REV1=0
+DUA1=100
+EXP1=25
+PWL1=720
+PWH1=2200
+EPL1=50
+EPH1=50
+SUB1=0
+
+# Channel 2 THROTTLE
+ICT2=1
+ICN2=3
+REV2=0
+DUA2=100
+EXP2=0
+PWL2=1000
+PWH2=2000
+EPL2=100
+EPH2=100
+SUB2=0
+
+# Channel 3 ELEVATOR with shorter endpoints
+ICT3=1
+ICN3=2
+REV3=0
+DUA3=100
+EXP3=25
+PWL3=690
+PWH3=2290
+EPL3=60
+EPH3=50
+SUB3=0
+
+# CH4-CH6 UNUSED
+ICT4=0
+ICT5=0
+ICT6=0
+
+##########################
+# CURRENT MODEL
+##########################
+MODEL=1 # MINI SKYWALKER
+
+##########################
+# ALTERNATE MODEL
+##########################
+ADS=2 # MINI SKYWALKER with shorter endpoints

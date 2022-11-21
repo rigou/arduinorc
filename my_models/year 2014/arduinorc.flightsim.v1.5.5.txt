@@ -1,0 +1,103 @@
+##########################
+# arduinotx v1.5.5 settings
+# 2014-09-14
+##########################
+
+##############################################################################
+# Flight Simulator Model, 6 channels, with Exponential
+##############################################################################
+MODEL 6
+NAM=FSIM
+THC=3 # throttle on chan #3
+
+# Mixers UNUSED
+N1M1=0
+P1M1=100
+N2M1=0
+P2M1=100
+N1M2=0
+P1M2=100
+N2M2=0
+P2M2=100
+
+# Channel 1 AILERONS
+ICT1=1
+ICN1=1
+REV1=0
+DUA1=100
+EXP1=25
+PWL1=1000
+PWH1=2000
+EPL1=100
+EPH1=100
+SUB1=0
+
+# Channel 2 ELEVATOR
+ICT2=1
+ICN2=2
+REV2=0
+DUA2=100
+EXP2=25
+PWL2=1000
+PWH2=2000
+EPL2=100
+EPH2=100
+SUB2=0
+
+# Channel 3 THROTTLE
+ICT3=1
+ICN3=3
+REV3=0
+DUA3=100
+EXP3=0
+PWL3=1000
+PWH3=2000
+EPL3=100
+EPH3=100
+SUB3=0
+
+# Channel 4 RUDDER
+ICT4=1
+ICN4=4
+REV4=0
+DUA4=100
+EXP4=0
+PWL4=1000
+PWH4=2000
+EPL4=100
+EPH4=100
+SUB4=0
+
+# Channel 5
+ICT5=1
+ICN5=5
+REV5=0
+DUA5=100
+EXP5=0
+PWL5=1000
+PWH5=2000
+EPL5=100
+EPH5=100
+SUB5=0
+
+# Channel 6
+ICT6=1
+ICN6=6
+REV6=0
+DUA6=100
+EXP6=0
+PWL6=1000
+PWH6=2000
+EPL6=100
+EPH6=100
+SUB6=0
+
+##########################
+# CURRENT MODEL
+##########################
+MODEL=6
+
+##########################
+# ALTERNATE MODEL
+##########################
+ADS=1

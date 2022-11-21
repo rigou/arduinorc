@@ -1,0 +1,86 @@
+##########################
+# MIXERS TEST
+# not a real plane, used for testing mixers
+# updated 2013-07-05
+##########################
+MODEL 8
+NAM=MIXTEST
+THC=0 # no throttle channel
+
+# CH1 LEFT RUDDERVATOR
+# Servo HXT500
+ICT1=3	# 3=mixer
+ICN1=1	# mixer #1
+REV1=0
+DUA1=50
+EXP1=0
+PWL1=720
+PWH2=2200
+EPL1=100
+EPH1=100
+SUB1=0
+
+# CH2 RIGHT RUDDERVATOR
+# Servo HXT500
+ICT2=3	# 3=mixer
+ICN2=2	# mixer #2
+REV2=0
+DUA2=50
+EXP2=0
+PWL2=720
+PWH2=2200
+EPL2=100
+EPH2=100
+SUB2=0
+
+# MIXER 1 (LEFT RUDDERVATOR)
+N1M1=2		# mixer #1 input 1 is the elevator pot
+P1M1=100 	# percent mix applied to N1M1
+N2M1=4		# mixer #1 input 2 is the rudder pot
+P2M1=100 	# percent mix applied to N2M1
+
+# MIXER 2 (RIGHT RUDDERVATOR)
+N1M2=2		# mixer #2 input 1 is the elevator pot
+P1M2=100 	# percent mix applied to N1M2
+N2M2=4		# mixer #2 input 2 is the rudder pot
+P2M2=-100 	# percent mix applied to N2M2
+
+# CH3-CH6 UNUSED
+ICT3=0
+ICT4=0
+ICT5=0
+ICT6=0
+
+##########################
+# SERVO TESTER
+# for servo calibration
+# updated 2013-06-22
+##########################
+MODEL 9
+NAM=SERVOTST
+THC=0 # no throttle channel
+
+# CH1 / POT5
+# ANY SERVO
+ICT1=1
+ICN1=5
+REV1=0
+DUA1=50
+EXP1=25
+PWL1=500
+PWH1=2500
+EPL1=100
+EPH1=100
+SUB1=0
+
+# CH2-CH6 UNUSED
+ICT2=0
+ICT3=0
+ICT4=0
+ICT5=0
+ICT6=0
+
+##########################
+# CURRENT MODEL
+##########################
+MODEL 9 # SERVO TESTER
