@@ -4,7 +4,7 @@ https://arduinorc.reseau.org/
 
 ## PROJECT INFORMATION:
 
-With this software you can build a multi-channel (6 channels by default, up to 9 channels) RC transmitter with an Arduino Nano.
+With this software you can build a multi-channel (6 channels by default, up to 9 channels) RC transmitter using an Arduino Nano and a RF module.
 
 Visit the ArduinoRC project's website for more information: https://arduinorc.reseau.org/
 
